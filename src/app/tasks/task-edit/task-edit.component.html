@@ -1,0 +1,7 @@
+<form>
+  <label>Task Name: </label><br>
+  <input [(ngModel)]="task.name" type="text" name="name"><br>
+  <label>Task Message: </label><br>
+  <input [(ngModel)]="task.message" type="text" name="message"><br>
+</form>
+<button (click)="save()">Update</button>
